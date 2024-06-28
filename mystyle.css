@@ -1,0 +1,51 @@
+/* --------------------- TASK - 5 ------------------- */
+
+/*------------ BODY -----------*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*---------------- TITLE ---------------*/
+.weather-app {
+    color: white;
+    text-align: center;
+    background-color: purple;
+    background: linear-gradient(rgb(83, 61, 181), rgb(207, 46, 191));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: solid white;
+    border-radius: 25px;
+}
+
+button:hover {
+    transition: scale 0.3s;
+    scale: 97%;
+    background-color: black;
+    color: white;
+    border: solid black;
+}
+
+/* -------------- WEATHER DETAILS ----------------*/
+#weather-info {
+    margin-top: 20px;
+}
+
+#city-name {
+    text-decoration: underline;
+}
+
